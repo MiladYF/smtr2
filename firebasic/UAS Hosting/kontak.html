@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>RSUD Fadilah</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="our logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="pelayanan.html">PELAYANAN</a></li>
+                    <li><a href="registrasi.html">REGISTRASI</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Hubungi Kami</h1>
+
+    </section>
+<!--responsive web-->
+<!--sidebar tersembunyi dalam bentuk desktop-->
+<!-- Konten Kontak-->
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Nama awal</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Nama akhir</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Negara</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Indonesia</option>
+    </select>
+
+    <label for="subject">Subjek</label>
+    <textarea id="subject" name="subject" placeholder="Tulis sesuatu.." style="height:200px"></textarea>
+
+    <input type="submit" value="Kirim">
+
+  </form>
+</div>
+
+<!--Footer-->
+<section class="footer">
+    <h4>Tentang Kami</h4>
+    <p>RSUD Fadilah  memiliki komitmen  tinggi untuk menunjang  program  Pemerintah  tersebut Namun demikian acap kali perkembanganya kurang diketahui oleh masyarakat luas sehingga dukungan dari luar dirasa kurang. <br>Berangkat dari hal  tersebut maka di susunlah profil RSUD Fadilah tahun 2022 sebagai manifestasi tugas UAS Dasar Pengembangan Website sekaligus menjadi harapan ke depan</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Milad Yusri Fadilah (21240068)</p>
+</section>
+
+<!--Javascript toggle-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>

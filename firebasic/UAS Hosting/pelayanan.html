@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>RSUD Fadilah</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="our logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="pelayanan.html">PELAYANAN</a></li>
+                    <li><a href="registrasi.html">REGISTRASI</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Pelayanan</h1>
+
+    </section>
+<!--responsive web-->
+<!--sidebar tersembunyi dalam bentuk desktop-->
+<!-- Konten Pelayanan-->
+<section class="layan">
+<div class="row">
+    <div class="layan-col">
+        <h2>Jenis Pelayanan</h2>
+        <p><img src="images/layan.jpg" style="float:right" alt="foto layanan"><ol>
+            <li>Pelayanan gawat darurat</li>
+            <li>Pelayanan rawat jalan</li>
+            <li>Pelayanan rawat inap</li>
+            <li>Pelayanan bedah</li>
+            <li>Pelayanan persalinan dan perinatologi</li>
+            <li>Pelayanan intensif</li>
+            <li>Pelayanan radiologi</li>
+            <li>Pelayanan laboratorium patologi klinik</li>
+            <li>Pelayanan rehabilitas medik</li>
+            <li>Pelayanan farmasi</li>
+            <li>Pelayanan gizi</li>
+            <li>Pelayanan transfusi darah</li>
+            <li>Pelayanan keluarga miskin</li>
+            <li>Pelayanan rekam medis</li>
+            <li>Pengelolaan limbah</li>
+            <li>Pelayanan administrasi manajemen</li>
+            <li>Pelayanan ambulans/kereta jenazah</li>
+            <li>Pelayanan pemulasaraan jenazah</li>
+            <li>Pelayanan laundry</li>
+            <li>Pelayanan pemeliharaan rumah sakit</li>
+            <li>Pelayanan pengendalian infeksi</li>
+        </ol>
+        
+    </p>
+    </div>
+    <div class="layan-col">
+       
+    </div>
+</div>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <h4>Tentang Kami</h4>
+    <p>RSUD Fadilah  memiliki kotmitmen  tinggi untuk menunjang  program  Pemerintah  tersebut Namun demikian acap kali perkembanganya kurang diketahui oleh masyarakat luas sehingga dukungan dari luar dirasa kurang. <br>Berangkat dari hal  tersebut maka di susunlah profil RSUD Fadilah tahun 2022 sebagai manifestasi tugas UAS Dasar Pengembangan Website sekaligus menjadi harapan ke depan</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Milad Yusri Fadilah (21240068)</p>
+</section>
+
+<!--Javascript toggle-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>
